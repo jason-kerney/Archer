@@ -29,6 +29,10 @@
         {
             "name": "push",
             "command": "gittey test && push"
+        },
+        {
+            "name": "build",
+            "command": "dotnet build"
         }
     ],
     "collaborators": []
