@@ -28,7 +28,7 @@
         },
         {
             "name": "push",
-            "command": "gittey test && push"
+            "command": "gittey test && git push"
         },
         {
             "name": "build",
