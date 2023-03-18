@@ -3,10 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <RootNamespace>Archer.Types</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="Library.fs" />
+    <Compile Include="Types.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Results\Archer.Results.fsproj" />
   </ItemGroup>
 
 </Project>

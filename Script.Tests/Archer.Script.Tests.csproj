@@ -5,6 +5,13 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>Archer.Script.Tests</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Engine\Archer.Engine.fsproj" />
+    <ProjectReference Include="..\Results\Archer.Results.fsproj" />
+    <ProjectReference Include="..\Types\Archer.Types.fsproj" />
+  </ItemGroup>
 
 </Project>

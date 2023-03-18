@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Archer.Engine", "Engine\Arc
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Archer.Results", "Results\Archer.Results.fsproj", "{C869D095-C0C0-499E-ADD6-9BA374D507A7}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Archer.Types", "Types\Archer.Types.fsproj", "{6E43016E-4423-48FA-AD51-25271D7070C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{C869D095-C0C0-499E-ADD6-9BA374D507A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C869D095-C0C0-499E-ADD6-9BA374D507A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C869D095-C0C0-499E-ADD6-9BA374D507A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E43016E-4423-48FA-AD51-25271D7070C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E43016E-4423-48FA-AD51-25271D7070C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E43016E-4423-48FA-AD51-25271D7070C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E43016E-4423-48FA-AD51-25271D7070C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
