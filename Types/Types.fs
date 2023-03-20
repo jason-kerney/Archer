@@ -45,8 +45,10 @@ type ITestExecutor =
     abstract member EndExecution: IEvent<Delegate, TestEventArgs> with get
 
     abstract member Execute: unit -> TestResult
+    
+    abstract member Parent: ITest with get
 
-type ITest =
+and ITest =
     abstract member ContainerFullName: string with get
     abstract member ContainerName: string with get
     abstract member TestFullName: string with get
