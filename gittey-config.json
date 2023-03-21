@@ -33,6 +33,10 @@
         {
             "name": "build",
             "command": "dotnet build"
+        },
+        {
+            "name": "undo",
+            "command": "git reset . && git checkout . && git clean -xfd"
         }
     ],
     "collaborators": []
