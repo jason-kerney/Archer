@@ -6,7 +6,7 @@ type Failure =
     | GeneralFailure of string
     | SetupFailure of string
     | CancelFailure
-    | IgnoredFailure
+    | IgnoredFailure of string option
     | TearDownFailure of string
     | FailureWithMessage of string * Failure
     | CombinationFailure of Failure * Failure

@@ -7,16 +7,12 @@ open Archer.Results
 type TestCancelEventArgsWithResults (cancel: bool, result: TestResult) =
     inherit CancelEventArgs (cancel)
     
-    new () = TestCancelEventArgsWithResults (false, TestSuccess)
     new (result: TestResult) = TestCancelEventArgsWithResults (false, result)
     
     member _.TestResult with get () = result
   
-type TestEventArgs (result: TestResult option) =
+type TestEventArgs (result: TestResult) =
     inherit EventArgs()
-    
-    new () = TestEventArgs None
-    new (result: TestResult) = TestEventArgs (Some result)
     
     member _.TestResult with get () = result
 
