@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net7.0;net6.0;netstandard2.1</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>Archer.Quiver.TestAdapter</AssemblyName>
+    <AssemblyName>Archer.Bow.TestAdapter</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Literals.fs" />
     <Compile Include="Types.fs" />
   </ItemGroup>
 
